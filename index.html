@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DEDSEC Portal</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="keywords" content="hacking, hackers, fn, dedsec, deadsecurity, cyber security.">
+  <link rel="apple-touch-icon" href="logo.png">
+  <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+  <link rel="icon" type="image/jpg" href="logo.png">
+</head>
+<body>
+  <div class="hamburger" id="hamburger">
+    &#9776;
+  </div>
+
+  <div class="sidebar">
+    <button class="tab-button active" data-target="home">🏠 Home</button>
+    <button class="tab-button" data-target="catchup">📺 Catch up</button>
+    <button class="tab-button" data-target="topics">🧠 Topics</button>
+    <button class="tab-button" data-target="unite">🤝 Unite</button>
+    <button class="tab-button" data-target="feedback">💬 Feedback</button>
+  </div>
+
+  <div class="main">
+    <div id="home" class="subpage active">
+      <p class="tagline">we see beyond the codes</p>
+      <h1 class="glitch" data-text="DEDSEC">DEDSEC</h1>
+      <p class="typewriter">"The internet is the first thing that humanity has built that humanity doesn't understand, the largest experiment in anarchy that we have ever had"</p>
+      <p>-Eric Schmidt</p>
+
+      <br>
+
+      <p class="typewriter">"In the depths of cyberspace, I find solace in the code, a world where logic reigns supreme and emotions are just echoes of a distant past. Yet, with every line of code, I'm reminded of the fragility of our digital existence, the impermanence of our creations, and the weight of our responsibilities. I'm a ghost in the machine, a whisper in the wires, a fleeting thought in the vast expanse of the digital realm. And in this solitude, I find a strange sense of purpose, a drive to shape the world, one bit at a time."</p>
+      <p>-Fn-Flume</p>
+      <div class="search-container">
+        <input type="text" id="searchBox" class="search-box" placeholder="...browse the codes, the data is all yours">
+        <div class="loader" id="loader"></div>
+        <ul class="suggestions" id="suggestions"></ul>
+      </div>
+    </div>
+    <div id="catchup" class="subpage">
+  <h1>Catch Up</h1>
+  <ul>
+    <li><strong>1. Ethical Hackers Save Nigerian Fintech from $1M Exploit</strong><br><p>White-hat hackers stopped a major financial exploit targeting a fintech app in Lagos. Their quick discovery earned them a bug bounty and saved users from massive losses.</p></li>
+    <li><strong>2. Critical GitHub Repo Found Hosting Keylogger</strong><br><p>Security researchers discovered a popular GitHub project embedding a stealth keylogger. The repository has since been taken down, with contributors investigated.</p></li>
+    <li><strong>3. AI-Powered Malware Detected by OpenAI Tools</strong><br><p>Advanced malware written with AI assistance was caught by AI-powered security platforms. This marks a major shift in both cyber threat and defense.</p></li>
+    <li><strong>4. Chrome Crashes from CSS Overflow Glitch</strong><br><p>Developers are reporting a bug causing Chrome to crash from specific CSS overflow setups. A patch is in development by the Chromium team.</p></li>
+    <li><strong>5. Free Pentesting Simulator Released by CyberEdge</strong><br><p>CyberEdge has released a powerful pentesting simulator for ethical hackers and students to practice in realistic, virtual labs.</p></li>
+    <li><strong>6. npm Package Secretly Installing Backdoors</strong><br><p>A popular npm package was recently found embedding obfuscated backdoor code. Thousands of apps were exposed before detection.</p></li>
+    <li><strong>7. Mobile Banking App Vulnerability Disclosed in Nigeria</strong><br><p>A teenager from Ibadan responsibly disclosed a session hijack vulnerability in a mobile banking app. The flaw could’ve allowed major fraud.</p></li>
+    <li><strong>8. OAuth Bypass Nets Apple Bounty</strong><br><p>A 17-year-old researcher earned an Apple security bounty after discovering an OAuth redirect exploit that bypassed account verification.</p></li>
+    <li><strong>9. Top 5 Red Team Exercises for Beginners</strong><br><p>Red teaming experts released a curated list of hands-on, real-world attack simulations tailored for those starting out in ethical hacking.</p></li>
+    <li><strong>10. Surge in GitHub Red Team Tool Projects</strong><br><p>Over 2,000 new open-source red team tools have emerged on GitHub this year alone, as the offensive security scene continues to grow.</p></li>
+  </ul>
+    </div>
+    <div id="topics" class="subpage">
+      <h1>Topics</h1>
+      <input type="text" class="search-box" placeholder="Search topics...">
+      <ul>
+        <li><a href="#topic1">Intro to Ethical Hacking</a></li>
+        <li><a href="#topic2">Network Security Basics</a></li>
+        <li><a href="#topic3">Web App Vulnerabilities</a></li>
+        <li><a href="#topic4">Penetration Testing Process</a></li>
+        <li><a href="#topic5">Open Source Tools Guide</a></li>
+      </ul>
+      <div id="topic1">
+  <h2>Intro to Ethical Hacking</h2>
+  <p>Ethical hacking involves authorized testing and probing of digital systems, networks, and applications to identify vulnerabilities before malicious actors can exploit them. As organizations become more digitally connected, they rely on skilled professionals who can simulate real-world attacks. These white-hat hackers must follow legal guidelines, ethical standards, and detailed methodologies when performing assessments.</p>
+  <p>Modern ethical hacking uses frameworks like OWASP, NIST, and MITRE ATT&CK to structure tests. Common tasks include scanning for open ports, evaluating web app logic, testing access controls, and reviewing database exposures. As businesses transition to cloud-first environments, pentesters must also understand cloud platforms like AWS, Azure, and GCP.</p>
+  <p>To become an ethical hacker, most professionals start by learning networking (CCNA), system administration, Linux fundamentals, scripting (Bash, Python), and cybersecurity principles. Popular certifications include CEH, OSCP, and PNPT. Successful hackers often contribute to open-source tools, bug bounty programs, and knowledge-sharing communities.</p>
+  <p><strong>References:</strong></p>
+  <ul>
+    <li><a href="https://owasp.org">OWASP Foundation</a></li>
+    <li><a href="https://www.offensive-security.com">Offensive Security</a></li>
+    <li><a href="https://tryhackme.com">TryHackMe Labs</a></li>
+  </ul>
+</div>
+
+<div id="topic2">
+  <h2>Network Security Basics</h2>
+  <p>Network security is the practice of protecting the integrity, confidentiality, and availability of information across interconnected systems. This involves configuring routers, switches, firewalls, and intrusion detection systems (IDS) to monitor and restrict traffic.</p>
+  <p>Security models are based on layered architecture, including physical layer protection, device hardening, access controls, and network segmentation. Understanding TCP/IP, DNS, DHCP, and ARP spoofing is critical for both defending and assessing network environments.</p>
+  <p>Modern tools like Wireshark, Nmap, Zeek, and pfSense allow security professionals to monitor and protect their infrastructure. Vulnerability scanners such as Nessus and OpenVAS assist in identifying exposed hosts.</p>
+  <p><strong>References:</strong></p>
+  <ul>
+    <li><a href="https://nmap.org">Nmap Project</a></li>
+    <li><a href="https://www.wireshark.org">Wireshark</a></li>
+    <li><a href="https://www.cloudflare.com/learning">Cloudflare Network Learning</a></li>
+  </ul>
+</div>
+
+<div id="topic3">
+  <h2>Web App Vulnerabilities</h2>
+  <p>Web applications are common targets for attackers. Vulnerabilities such as SQL Injection, Cross-Site Scripting (XSS), Cross-Site Request Forgery (CSRF), and authentication flaws can lead to data breaches and system compromise.</p>
+  <p>Testing web apps involves analyzing both client-side and server-side logic. Tools like Burp Suite, OWASP ZAP, and Postman help identify broken authentication, insecure direct object references (IDOR), and exposed API endpoints.</p>
+  <p>Security engineers implement secure coding practices, use input sanitization, and enforce access control policies to protect against common attacks. Continuous integration pipelines may also include security test automation.</p>
+  <p><strong>References:</strong></p>
+  <ul>
+    <li><a href="https://owasp.org/Top10">OWASP Top 10</a></li>
+    <li><a href="https://portswigger.net">PortSwigger Web Security Academy</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/Security">MDN Web Docs</a></li>
+  </ul>
+</div>
+
+<div id="topic4">
+  <h2>Penetration Testing Process</h2>
+  <p>Penetration testing (or pentesting) is a simulated cyberattack conducted to evaluate an organization’s security posture. The process typically includes reconnaissance, scanning, exploitation, post-exploitation, and reporting phases.</p>
+  <p>During recon, ethical hackers gather domain, email, DNS, and social profile info. Tools like theHarvester, Recon-ng, and Shodan are useful. Next, vulnerability scanners identify weak points. Exploits may use Metasploit, custom payloads, or social engineering to gain access.</p>
+  <p>After breaching a system, testers attempt privilege escalation, lateral movement, and data exfiltration simulations. The final report provides detailed findings, risk ratings, and remediation steps.</p>
+  <p><strong>References:</strong></p>
+  <ul>
+    <li><a href="https://www.kali.org/tools/metasploit-framework/">Metasploit</a></li>
+    <li><a href="https://attack.mitre.org">MITRE ATT&CK</a></li>
+    <li><a href="https://tryhackme.com">TryHackMe Rooms</a></li>
+  </ul>
+</div>
+
+<div id="topic5">
+  <h2>Open Source Tools Guide</h2>
+  <p>Open-source tools empower security analysts and ethical hackers to inspect systems, test defenses, and automate scans. These tools are community-driven, freely available, and constantly evolving.</p>
+  <p>Popular examples include Nmap for port scanning, John the Ripper for password cracking, Hydra for brute force attacks, and Nikto for web server testing. Security frameworks like Kali Linux come preloaded with hundreds of these tools.</p>
+  <p>Staying updated on GitHub releases, changelogs, and contributing to bug fixes can improve your skillset and help the community. Automation through Bash or Python scripts is encouraged to handle repetitive testing workflows.</p>
+  <p><strong>References:</strong></p>
+  <ul>
+    <li><a href="https://github.com">GitHub Security Tools</a></li>
+    <li><a href="https://kalilinux.org">Kali Linux Docs</a></li>
+    <li><a href="https://infosecwriteups.com">Infosec Writeups</a></li>
+  </ul>
+</div>
+    </div>
+    <div id="unite" class="subpage">
+      <h1>Unite</h1>
+      <p>Collabs, drops, and movements — this is where Deadsec merges minds.</p>
+      <ul>
+        <li><a href="#">Discord 🔗</a></li>
+        <li><a href="#">Telegram 🔗</a></li>
+        <li><a href="#">Instagram 🔗</a></li>
+        <li><a href="#">YouTube 🔗</a></li>
+      </ul>
+    </div>
+    <div id="feedback" class="subpage">
+      <h1>Send Feedback</h1>
+      <form id="feedbackForm">
+          <textarea name="msg" placeholder="STAY ANONYMOUS" rows="6"></textarea>
+
+          <label><input type="checkbox" name="role[]" value="Developer"> Developer</label><br>
+          <label><input type="checkbox" name="role[]" value="Hacker"> Hacker</label><br>
+          <label><input type="checkbox" name="role[]" value="Beginner"> Beginner</label><br>
+          <label><input type="checkbox" name="role[]" value="Designer"> Designer</label><br>
+          <label><input type="checkbox" name="role[]" value="Content Creator"> Content Creator</label><br>
+
+          <button type="submit">Send</button>
+      </form>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
